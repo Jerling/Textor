@@ -287,10 +287,10 @@ void editor::draw_msg__() {
 }
 
 void editor::insert_char__() {
-  // if (cx_ == numrows_) {
-  //   text_.push_back("");
-  //   numrows_++;
-  // }
+  if (cx_ == numrows_) {
+    text_.push_back("");
+    numrows_++;
+  }
   if (cy_ < 0 || cy_ > text_[cx_].size()) cy_ = text_[cx_].size();
   text_[cx_].insert(cy_, 1, key_);
   cy_++;

@@ -1,0 +1,17 @@
+#+TITLE: Textor
+
+一个简单的文本编辑器。目前只实现简单的查看和编辑功能，有机会继续完善。
+
+* 使用方法：
+#+BEGIN_SRC bash
+cd build && cmake ..
+./build/bin/main
+#+END_SRC
+* 相关博客：
+[[https://jerling.github.io/blog/write_textor_1/][动手写编辑器(一) ~ 文本模式]]
+
+[[https://jerling.github.io/blog/write_textor_2/][动手写编辑器（二） ~ 输入和输出]]
+
+[[https://jerling.github.io/blog/write_textor_3/][动手写编辑器 (三) ~ 文件查看器]]
+
+[[https://jerling.github.io/blog/write_textor_4/][动手写编辑器 (四) ~ 文本编辑器]]
