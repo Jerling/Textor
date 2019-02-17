@@ -4,7 +4,7 @@
 
 * 使用方法：
 #+BEGIN_SRC bash
-cd build && cmake ..
+cd build && cmake .. && make
 ./build/bin/main
 #+END_SRC
 * 相关博客：
