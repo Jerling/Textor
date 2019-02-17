@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.7)
+set(PROJECT_NAME "Textor")
+project(${PROJECT_NAME})
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
+
+add_executable(main main.cpp)
